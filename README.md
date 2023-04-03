@@ -11,7 +11,7 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
   - name = Wayne Barnett
   - role = Founder & CEO
-  - img = wayne-barnett-founder-ceo.jpg
+  - img = wayne-barnett-founder-ceojpg
 
 - user2: 
 

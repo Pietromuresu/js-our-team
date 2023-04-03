@@ -27,3 +27,11 @@ const members = [
 ]; 
 
 
+for (let member of members){  
+
+  for (let key in member){
+    console.log(key, ':' ,member[key]);
+  }
+console.log('---------------');
+
+}
