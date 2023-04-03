@@ -11,7 +11,7 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
   - name = Wayne Barnett
   - role = Founder & CEO
-  - img = wayne-barnett-founder-ceojpg
+  - img = wayne-barnett-founder-ceo.jpg
 
 - user2: 
 
@@ -41,7 +41,7 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
   - name = Walter Gordon 
   - role = Office Menager
-  - img = walter-gordon-office-menager.jpg
+  - img = walter-gordon-office-manager.jpg
 
 ---
 

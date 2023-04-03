@@ -2,7 +2,7 @@ const members = [
   {
     name : "Wayne Barnett",
     role : "Founder & CEO",
-    img  : "wayne-barnett-founder-ceo-jpg",
+    img  : "wayne-barnett-founder-ceo.jpg",
   },
   {
     name : "Angela Caroll",
@@ -12,7 +12,7 @@ const members = [
   {
     name : "Angela Lopez",
     role : "Social Media Manager",
-    img  : "angela-lopez-manager-manager.jpg",
+    img  : "angela-lopez-social-media-manager.jpg",
   },
   {
     name : "Scott Estrada",
@@ -27,7 +27,7 @@ const members = [
   {
     name : "Walter Gordon",
     role : "Office Menager",
-    img  : "walter-gordon-office-menager.jpg",
+    img  : "walter-gordon-office-manager.jpg",
   }
 ]; 
 
@@ -39,10 +39,12 @@ for (let member of members){
   }
 
    document.querySelector('.pm-members-container').innerHTML += `
-   <div class="col-4 border"> 
-    <strong>img </strong>: ${member.img}    <br>
-    <strong>name</strong> : ${member.name}  <br>
-    <strong>role</strong> : ${member.role}  <br>
+   <div class="col-4 "> 
+    <div class="pm-card pb-4">
+      <img src="assets/img/${member.img}"> </img>   
+      <p class="mt-4 pm-member-name"> ${member.name}</p>
+      <p class="pm-member-role"> ${member.role}</p>  
+    </div>
     </div>
    
     `
