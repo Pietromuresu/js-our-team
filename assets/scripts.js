@@ -23,6 +23,11 @@ const members = [
     name : "Barbara Ramos",
     role : "Graphic Designer",
     img  : "barbara-ramos-graphic-designer.jpg",
+  },
+  {
+    name : "Walter Gordon",
+    role : "Office Menager",
+    img  : "walter-gordon-office-menager.jpg",
   }
 ]; 
 
@@ -32,6 +37,13 @@ for (let member of members){
   for (let key in member){
     console.log(key, ':' ,member[key]);
   }
-console.log('---------------');
 
+   document.querySelector('.pm-members-container').innerHTML += `
+   <div class="col-4 border"> 
+    <strong>img </strong>: ${member.img}    <br>
+    <strong>name</strong> : ${member.name}  <br>
+    <strong>role</strong> : ${member.role}  <br>
+    </div>
+   
+    `
 }

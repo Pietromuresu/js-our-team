@@ -37,6 +37,11 @@ Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
   - role = Graphic Designer
   - img = barbara-ramos-graphic-designer.jpg
 
+- user6: 
+
+  - name = Walter Gordon 
+  - role = Office Menager
+  - img = walter-gordon-office-menager.jpg
 
 ---
 
